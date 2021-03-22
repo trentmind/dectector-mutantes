@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./build",
+        "sourceMap": true,
+        "target": "ES6",
+        "module": "commonjs"
+    },
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+        "node_modules/**/*",
+        "build/**/*",
+        "util/**/*",
+        "./tests/"
+    ]
+}
